@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E9BED5F452EA44F5CC38DEC /* Pods_JobsBaseConfigTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5264D074FD3059E33E86EED /* Pods_JobsBaseConfigTests.framework */; };
-		57ADE3CA36B4DF34B391E814 /* Pods_JobsBaseConfigUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F31AB9C027976D67D98CF16 /* Pods_JobsBaseConfigUITests.framework */; };
+		328CDEB6B48108B8E12DE68C /* Pods_JobsBaseConfigUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 579301F74256EE3C6650CD4D /* Pods_JobsBaseConfigUITests.framework */; };
 		844B02122764C8EE00B0513D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B02112764C8EE00B0513D /* AppDelegate.m */; };
 		844B02152764C8EE00B0513D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B02142764C8EE00B0513D /* SceneDelegate.m */; };
 		844B02182764C8EE00B0513D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B02172764C8EE00B0513D /* ViewController.m */; };
@@ -20,7 +19,6 @@
 		844B02302764C8F000B0513D /* JobsBaseConfigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B022F2764C8F000B0513D /* JobsBaseConfigTests.m */; };
 		844B023A2764C8F000B0513D /* JobsBaseConfigUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B02392764C8F000B0513D /* JobsBaseConfigUITests.m */; };
 		844B023C2764C8F000B0513D /* JobsBaseConfigUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B023B2764C8F000B0513D /* JobsBaseConfigUITestsLaunchTests.m */; };
-		844B07A42764CB4A00B0513D /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B07842764CB4A00B0513D /* NotificationManager.m */; };
 		844B07A52764CB4A00B0513D /* 安全区域.png in Resources */ = {isa = PBXBuildFile; fileRef = 844B07962764CB4A00B0513D /* 安全区域.png */; };
 		844B07A62764CB4A00B0513D /* iPhone尺寸.png in Resources */ = {isa = PBXBuildFile; fileRef = 844B07982764CB4A00B0513D /* iPhone尺寸.png */; };
 		844B07A72764CB4A00B0513D /* iPad尺寸.png in Resources */ = {isa = PBXBuildFile; fileRef = 844B07992764CB4A00B0513D /* iPad尺寸.png */; };
@@ -395,7 +393,9 @@
 		844B12812764E37A00B0513D /* NSObject+UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B127E2764E37A00B0513D /* NSObject+UserInfo.m */; };
 		844B12852764E5BB00B0513D /* NSObject+URLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B12832764E5BB00B0513D /* NSObject+URLManager.m */; };
 		844B12892764E5C200B0513D /* URLManagerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B12872764E5C200B0513D /* URLManagerModel.m */; };
+		844B234927676CFA00B0513D /* JobsBaseConfigNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 844B234827676CFA00B0513D /* JobsBaseConfigNotificationManager.m */; };
 		ABB2A8B711CC6C1FEF7A4899 /* Pods_JobsBaseConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013934AB50FCDA373FFA6597 /* Pods_JobsBaseConfig.framework */; };
+		BF159A654839A739BB5D43A5 /* Pods_JobsBaseConfigTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF511769B6E489A14CA2A5F /* Pods_JobsBaseConfigTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -417,8 +417,12 @@
 
 /* Begin PBXFileReference section */
 		013934AB50FCDA373FFA6597 /* Pods_JobsBaseConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBaseConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1745F05DDE22E89A5A94A530 /* Pods-JobsBaseConfigUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseConfigUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBaseConfigUITests/Pods-JobsBaseConfigUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		18EA9649C446BFFC6EB8FF4C /* Pods-JobsBaseConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseConfig.release.xcconfig"; path = "Target Support Files/Pods-JobsBaseConfig/Pods-JobsBaseConfig.release.xcconfig"; sourceTree = "<group>"; };
-		3F31AB9C027976D67D98CF16 /* Pods_JobsBaseConfigUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBaseConfigUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EC3FE5846981C23AD61025 /* Pods-JobsBaseConfigTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseConfigTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBaseConfigTests/Pods-JobsBaseConfigTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C48911975DB4BA0419EC56B /* Pods-JobsBaseConfigTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseConfigTests.release.xcconfig"; path = "Target Support Files/Pods-JobsBaseConfigTests/Pods-JobsBaseConfigTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F419B5533623FEFB3694A64 /* Pods-JobsBaseConfigUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseConfigUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsBaseConfigUITests/Pods-JobsBaseConfigUITests.release.xcconfig"; sourceTree = "<group>"; };
+		579301F74256EE3C6650CD4D /* Pods_JobsBaseConfigUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBaseConfigUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB78C57967124ED900E9C4C /* Pods-JobsBaseConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseConfig.debug.xcconfig"; path = "Target Support Files/Pods-JobsBaseConfig/Pods-JobsBaseConfig.debug.xcconfig"; sourceTree = "<group>"; };
 		844B020D2764C8EE00B0513D /* JobsBaseConfig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsBaseConfig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844B02102764C8EE00B0513D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -438,8 +442,6 @@
 		844B02352764C8F000B0513D /* JobsBaseConfigUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsBaseConfigUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844B02392764C8F000B0513D /* JobsBaseConfigUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsBaseConfigUITests.m; sourceTree = "<group>"; };
 		844B023B2764C8F000B0513D /* JobsBaseConfigUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsBaseConfigUITestsLaunchTests.m; sourceTree = "<group>"; };
-		844B07842764CB4A00B0513D /* NotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManager.m; sourceTree = "<group>"; };
-		844B07852764CB4A00B0513D /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManager.h; sourceTree = "<group>"; };
 		844B07882764CB4A00B0513D /* MacroDef_Cor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_Cor.h; sourceTree = "<group>"; };
 		844B078A2764CB4A00B0513D /* MacroDef_String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_String.h; sourceTree = "<group>"; };
 		844B078B2764CB4A00B0513D /* MacroDef_Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_Singleton.h; sourceTree = "<group>"; };
@@ -584,8 +586,6 @@
 		844B08352764CF4800B0513D /* XHLaunchAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdView.h; sourceTree = "<group>"; };
 		844B08362764CF4800B0513D /* XHLaunchAdImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdImageManager.m; sourceTree = "<group>"; };
 		844B08372764CF4800B0513D /* XHLaunchAdConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdConst.h; sourceTree = "<group>"; };
-		844B08852764CFC500B0513D /* DDPods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPods.h; sourceTree = "<group>"; };
-		844B08862764CFC500B0513D /* DDPodsManual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPodsManual.h; sourceTree = "<group>"; };
 		844B09EC2764DBB800B0513D /* UBLGuideVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBLGuideVC.h; sourceTree = "<group>"; };
 		844B09ED2764DBB800B0513D /* UBLGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBLGuide.h; sourceTree = "<group>"; };
 		844B09EE2764DBB800B0513D /* KSGuideManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSGuideManager.h; sourceTree = "<group>"; };
@@ -731,7 +731,6 @@
 		844B0E4F2764DE1900B0513D /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		844B0E512764DE1A00B0513D /* DDUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUserModel.m; sourceTree = "<group>"; };
 		844B0E522764DE1A00B0513D /* DDUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUserModel.h; sourceTree = "<group>"; };
-		844B0E562764DE2D00B0513D /* DAO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAO.h; sourceTree = "<group>"; };
 		844B0E592764E09900B0513D /* JobsImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsImage.h; sourceTree = "<group>"; };
 		844B0E5A2764E09900B0513D /* LoadingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
 		844B0E5D2764E09900B0513D /* UIImage+ScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScreenShot.m"; sourceTree = "<group>"; };
@@ -1148,11 +1147,13 @@
 		844B12872764E5C200B0513D /* URLManagerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLManagerModel.m; sourceTree = "<group>"; };
 		844B12882764E5C200B0513D /* URLManagerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLManagerModel.h; sourceTree = "<group>"; };
 		844B1E882767240E00B0513D /* JobsBaseConfigPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBaseConfigPrefixHeader.pch; sourceTree = "<group>"; };
-		89DACF6FBBA3EB77DFE313A2 /* Pods-JobsBaseConfigUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseConfigUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsBaseConfigUITests/Pods-JobsBaseConfigUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9F31202F4158248DB9D48693 /* Pods-JobsBaseConfigTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseConfigTests.release.xcconfig"; path = "Target Support Files/Pods-JobsBaseConfigTests/Pods-JobsBaseConfigTests.release.xcconfig"; sourceTree = "<group>"; };
-		A17EADF28D1EFAE2D1005501 /* Pods-JobsBaseConfigUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseConfigUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBaseConfigUITests/Pods-JobsBaseConfigUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B8386DD4F08E3EBAA548866D /* Pods-JobsBaseConfigTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsBaseConfigTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsBaseConfigTests/Pods-JobsBaseConfigTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5264D074FD3059E33E86EED /* Pods_JobsBaseConfigTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBaseConfigTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		844B2344276765AA00B0513D /* JobsBaseConfigDAO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBaseConfigDAO.h; sourceTree = "<group>"; };
+		844B234527676C4600B0513D /* JobsBaseConfigPods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBaseConfigPods.h; sourceTree = "<group>"; };
+		844B234627676C6300B0513D /* JobsBaseConfigPodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBaseConfigPodsManual.h; sourceTree = "<group>"; };
+		844B234727676CFA00B0513D /* JobsBaseConfigNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBaseConfigNotificationManager.h; sourceTree = "<group>"; };
+		844B234827676CFA00B0513D /* JobsBaseConfigNotificationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsBaseConfigNotificationManager.m; sourceTree = "<group>"; };
+		844B252B2767700300B0513D /* JobsBaseConfig-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobsBaseConfig-Bridging-Header.h"; sourceTree = "<group>"; };
+		AFF511769B6E489A14CA2A5F /* Pods_JobsBaseConfigTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsBaseConfigTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1168,7 +1169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E9BED5F452EA44F5CC38DEC /* Pods_JobsBaseConfigTests.framework in Frameworks */,
+				BF159A654839A739BB5D43A5 /* Pods_JobsBaseConfigTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1176,7 +1177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57ADE3CA36B4DF34B391E814 /* Pods_JobsBaseConfigUITests.framework in Frameworks */,
+				328CDEB6B48108B8E12DE68C /* Pods_JobsBaseConfigUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1187,8 +1188,8 @@
 			isa = PBXGroup;
 			children = (
 				013934AB50FCDA373FFA6597 /* Pods_JobsBaseConfig.framework */,
-				D5264D074FD3059E33E86EED /* Pods_JobsBaseConfigTests.framework */,
-				3F31AB9C027976D67D98CF16 /* Pods_JobsBaseConfigUITests.framework */,
+				AFF511769B6E489A14CA2A5F /* Pods_JobsBaseConfigTests.framework */,
+				579301F74256EE3C6650CD4D /* Pods_JobsBaseConfigUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1221,8 +1222,8 @@
 			children = (
 				844B02242764C8F000B0513D /* Info.plist */,
 				844B1E882767240E00B0513D /* JobsBaseConfigPrefixHeader.pch */,
-				844B03342764CB0000B0513D /* BaseConfig */,
 				844B02BD2764C95E00B0513D /* AppDelegate & SceneDelegate */,
+				844B03342764CB0000B0513D /* BaseConfig */,
 				844B02482764C93600B0513D /* Others */,
 				844B02162764C8EE00B0513D /* ViewController.h */,
 				844B02172764C8EE00B0513D /* ViewController.m */,
@@ -1289,9 +1290,10 @@
 		844B03342764CB0000B0513D /* BaseConfig */ = {
 			isa = PBXGroup;
 			children = (
+				844B23C627676F3000B0513D /* Swift-OC桥接头文件 */,
 				844B07822764CB4A00B0513D /* 各项全局定义 */,
 				844B0E482764DE0200B0513D /* DAO */,
-				844B08842764CFC500B0513D /* DDPods */,
+				844B08842764CFC500B0513D /* JobsBaseConfigPods */,
 				844B0E572764E09900B0513D /* JobsBaseCustomizeUIKitCore */,
 				844B09EA2764DBB800B0513D /* JobsMixFunc */,
 			);
@@ -1301,20 +1303,20 @@
 		844B07822764CB4A00B0513D /* 各项全局定义 */ = {
 			isa = PBXGroup;
 			children = (
-				844B07832764CB4A00B0513D /* NotificationManager */,
+				844B07832764CB4A00B0513D /* JobsBaseConfigNotificationManager */,
 				844B07862764CB4A00B0513D /* 各项宏定义 */,
 				844B07A02764CB4A00B0513D /* 其他的一些全局定义文件 */,
 			);
 			path = "各项全局定义";
 			sourceTree = "<group>";
 		};
-		844B07832764CB4A00B0513D /* NotificationManager */ = {
+		844B07832764CB4A00B0513D /* JobsBaseConfigNotificationManager */ = {
 			isa = PBXGroup;
 			children = (
-				844B07852764CB4A00B0513D /* NotificationManager.h */,
-				844B07842764CB4A00B0513D /* NotificationManager.m */,
+				844B234727676CFA00B0513D /* JobsBaseConfigNotificationManager.h */,
+				844B234827676CFA00B0513D /* JobsBaseConfigNotificationManager.m */,
 			);
-			path = NotificationManager;
+			path = JobsBaseConfigNotificationManager;
 			sourceTree = "<group>";
 		};
 		844B07862764CB4A00B0513D /* 各项宏定义 */ = {
@@ -1666,32 +1668,32 @@
 			path = XHLaunchAd;
 			sourceTree = "<group>";
 		};
-		844B08842764CFC500B0513D /* DDPods */ = {
+		844B08842764CFC500B0513D /* JobsBaseConfigPods */ = {
 			isa = PBXGroup;
 			children = (
-				844B08852764CFC500B0513D /* DDPods.h */,
-				844B08862764CFC500B0513D /* DDPodsManual.h */,
+				844B234527676C4600B0513D /* JobsBaseConfigPods.h */,
+				844B234627676C6300B0513D /* JobsBaseConfigPodsManual.h */,
 			);
-			path = DDPods;
+			path = JobsBaseConfigPods;
 			sourceTree = "<group>";
 		};
 		844B09EA2764DBB800B0513D /* JobsMixFunc */ = {
 			isa = PBXGroup;
 			children = (
-				844B09EB2764DBB800B0513D /* GuidePage */,
-				844B09F22764DBB800B0513D /* 图形验证码 */,
-				844B09F52764DBB800B0513D /* JobsBitsMonitor */,
-				844B09FD2764DBB800B0513D /* 深度拓展系统UITabBar全家桶 */,
-				844B0A432764DBB900B0513D /* 分享控件 */,
 				844B0A4B2764DBB900B0513D /* JobsMixFunc.h */,
-				844B0A4C2764DBB900B0513D /* JobsHotLabel */,
-				844B0A4F2764DBB900B0513D /* 网络请求 */,
 				844B0A5E2764DBB900B0513D /* 播放器控制层 */,
+				844B0A432764DBB900B0513D /* 分享控件 */,
 				844B0A652764DBB900B0513D /* 广告或者公示弹出框 */,
+				844B09FD2764DBB800B0513D /* 深度拓展系统UITabBar全家桶 */,
+				844B0A992764DBB900B0513D /* 手势滑动返回 */,
+				844B09F22764DBB800B0513D /* 图形验证码 */,
+				844B0A4F2764DBB900B0513D /* 网络请求 */,
+				844B09EB2764DBB800B0513D /* GuidePage */,
+				844B09F52764DBB800B0513D /* JobsBitsMonitor */,
+				844B0A4C2764DBB900B0513D /* JobsHotLabel */,
 				844B0A682764DBB900B0513D /* JobsImageNumberView */,
 				844B0A882764DBB900B0513D /* JobsPageTBV */,
 				844B0A8E2764DBB900B0513D /* JobsSuspend */,
-				844B0A992764DBB900B0513D /* 手势滑动返回 */,
 			);
 			path = JobsMixFunc;
 			sourceTree = "<group>";
@@ -2156,7 +2158,7 @@
 				844B0E4D2764DE1900B0513D /* BaseModel */,
 				844B0E4A2764DE1900B0513D /* DDResponseModel */,
 				844B0E502764DE1A00B0513D /* DDUserModel */,
-				844B0E562764DE2D00B0513D /* DAO.h */,
+				844B2344276765AA00B0513D /* JobsBaseConfigDAO.h */,
 			);
 			path = DAO;
 			sourceTree = "<group>";
@@ -4433,15 +4435,23 @@
 			path = URLManagerModel;
 			sourceTree = "<group>";
 		};
+		844B23C627676F3000B0513D /* Swift-OC桥接头文件 */ = {
+			isa = PBXGroup;
+			children = (
+				844B252B2767700300B0513D /* JobsBaseConfig-Bridging-Header.h */,
+			);
+			path = "Swift-OC桥接头文件";
+			sourceTree = "<group>";
+		};
 		B0977B0404F4246F3B021752 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				7EB78C57967124ED900E9C4C /* Pods-JobsBaseConfig.debug.xcconfig */,
 				18EA9649C446BFFC6EB8FF4C /* Pods-JobsBaseConfig.release.xcconfig */,
-				B8386DD4F08E3EBAA548866D /* Pods-JobsBaseConfigTests.debug.xcconfig */,
-				9F31202F4158248DB9D48693 /* Pods-JobsBaseConfigTests.release.xcconfig */,
-				A17EADF28D1EFAE2D1005501 /* Pods-JobsBaseConfigUITests.debug.xcconfig */,
-				89DACF6FBBA3EB77DFE313A2 /* Pods-JobsBaseConfigUITests.release.xcconfig */,
+				41EC3FE5846981C23AD61025 /* Pods-JobsBaseConfigTests.debug.xcconfig */,
+				4C48911975DB4BA0419EC56B /* Pods-JobsBaseConfigTests.release.xcconfig */,
+				1745F05DDE22E89A5A94A530 /* Pods-JobsBaseConfigUITests.debug.xcconfig */,
+				4F419B5533623FEFB3694A64 /* Pods-JobsBaseConfigUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -4473,7 +4483,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 844B02422764C8F000B0513D /* Build configuration list for PBXNativeTarget "JobsBaseConfigTests" */;
 			buildPhases = (
-				A782305E8542FE859554F421 /* [CP] Check Pods Manifest.lock */,
+				FCB899DAD9FD2A43292A8CCB /* [CP] Check Pods Manifest.lock */,
 				844B02272764C8F000B0513D /* Sources */,
 				844B02282764C8F000B0513D /* Frameworks */,
 				844B02292764C8F000B0513D /* Resources */,
@@ -4492,7 +4502,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 844B02452764C8F000B0513D /* Build configuration list for PBXNativeTarget "JobsBaseConfigUITests" */;
 			buildPhases = (
-				0C6467B96096856AFED92A5B /* [CP] Check Pods Manifest.lock */,
+				C2B573BA8B05972240AC22E1 /* [CP] Check Pods Manifest.lock */,
 				844B02312764C8F000B0513D /* Sources */,
 				844B02322764C8F000B0513D /* Frameworks */,
 				844B02332764C8F000B0513D /* Resources */,
@@ -4707,28 +4717,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C6467B96096856AFED92A5B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JobsBaseConfigUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		33804A073F9764586353EA6C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -4781,7 +4769,29 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobsBaseConfig/Pods-JobsBaseConfig-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A782305E8542FE859554F421 /* [CP] Check Pods Manifest.lock */ = {
+		C2B573BA8B05972240AC22E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobsBaseConfigUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB899DAD9FD2A43292A8CCB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4869,7 +4879,6 @@
 				844B11192764E09C00B0513D /* BaseImageView.m in Sources */,
 				844B0D242764DBBD00B0513D /* JobsTabBarControllerConfig.m in Sources */,
 				844B083A2764CF4800B0513D /* JXCategoryTitleBackgroundCellModel.m in Sources */,
-				844B07A42764CB4A00B0513D /* NotificationManager.m in Sources */,
 				844B0D442764DBBD00B0513D /* UITabBar+TLAnimation.m in Sources */,
 				844B11902764E09C00B0513D /* HQTextField.m in Sources */,
 				844B113B2764E09C00B0513D /* UINavigationController+SafeTransition.m in Sources */,
@@ -4933,6 +4942,7 @@
 				844B11042764E09C00B0513D /* UIView+ViewController.m in Sources */,
 				844B0D742764DBBD00B0513D /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				844B0D732764DBBD00B0513D /* JobsSuspendView.m in Sources */,
+				844B234927676CFA00B0513D /* JobsBaseConfigNotificationManager.m in Sources */,
 				844B10F82764E09C00B0513D /* UIColor+Hex.m in Sources */,
 				844B117C2764E09C00B0513D /* NSObject+Notification.m in Sources */,
 				844B10E52764E09B00B0513D /* UIButton+UI.m in Sources */,
@@ -5300,7 +5310,7 @@
 		};
 		844B02432764C8F000B0513D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8386DD4F08E3EBAA548866D /* Pods-JobsBaseConfigTests.debug.xcconfig */;
+			baseConfigurationReference = 41EC3FE5846981C23AD61025 /* Pods-JobsBaseConfigTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -5324,7 +5334,7 @@
 		};
 		844B02442764C8F000B0513D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F31202F4158248DB9D48693 /* Pods-JobsBaseConfigTests.release.xcconfig */;
+			baseConfigurationReference = 4C48911975DB4BA0419EC56B /* Pods-JobsBaseConfigTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -5348,7 +5358,7 @@
 		};
 		844B02462764C8F000B0513D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A17EADF28D1EFAE2D1005501 /* Pods-JobsBaseConfigUITests.debug.xcconfig */;
+			baseConfigurationReference = 1745F05DDE22E89A5A94A530 /* Pods-JobsBaseConfigUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -5370,7 +5380,7 @@
 		};
 		844B02472764C8F000B0513D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89DACF6FBBA3EB77DFE313A2 /* Pods-JobsBaseConfigUITests.release.xcconfig */;
+			baseConfigurationReference = 4F419B5533623FEFB3694A64 /* Pods-JobsBaseConfigUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

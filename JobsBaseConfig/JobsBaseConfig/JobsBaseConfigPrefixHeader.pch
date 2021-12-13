@@ -9,8 +9,8 @@
 #define JobsBaseConfigPrefixHeader_pch
 
 #pragma mark —— 各项全局定义
-/// NotificationManager
-#import "NotificationManager.h"
+/// JobsBaseConfigPrefixHeader
+#import "JobsBaseConfigPrefixHeader.pch"
 /// 各项宏定义
 #import "MacroDef_App.h"
 #import "MacroDef_Cor.h"
@@ -26,9 +26,9 @@
 #pragma mark —— JobsMixFunc
 #import "JobsMixFunc.h"
 #pragma mark —— Pods
-#import "DDPods.h"//【在各自具体的工程文件里面进行引用，否则编译失败】
-#import "DDPodsManual.h"
+#import "JobsBaseConfigPods.h"//【在各自具体的工程文件里面进行引用，否则编译失败】
+#import "JobsBaseConfigPodsManual.h"
 #pragma mark —— 数据模型层
-#import "DAO.h"
+#import "JobsBaseConfigDAO.h"
 
 #endif /* JobsBaseConfigPrefixHeader_pch */

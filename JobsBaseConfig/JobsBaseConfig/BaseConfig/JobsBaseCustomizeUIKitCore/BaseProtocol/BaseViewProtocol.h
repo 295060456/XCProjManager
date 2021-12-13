@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "BaseProtocol.h"
-#import "UIViewModel.h"
+@class UIViewModel;
 
 NS_ASSUME_NONNULL_BEGIN
 

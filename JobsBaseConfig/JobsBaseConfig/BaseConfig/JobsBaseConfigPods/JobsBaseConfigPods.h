@@ -1,13 +1,12 @@
 //
-//  Pods.h
-//  My_BaseProj
+//  JobsBaseConfigPods.h
+//  JobsBaseConfig
 //
-//  Created by 刘赓 on 2019/9/26.
-//  Copyright © 2019 Corp. All rights reserved.
+//  Created by Jobs on 2021/12/13.
 //
 
-#ifndef Pods_h
-#define Pods_h
+#ifndef JobsBaseConfigPods_h
+#define JobsBaseConfigPods_h
 
 #if DEBUG
 
@@ -363,4 +362,4 @@
 //#import "PINOperation.h"
 //#import "PINRemoteImage.h"//支持带标记的图片后处理。对于同一张图片，当需要不同的后处理方式时（a 界面需要正圆角，b 界面需要小幅度的圆角），尤为有用 https://juejin.im/post/5a96a9b4f265da4e7f35d24e#heading-4
 
-#endif /* Pods_h */
+#endif /* JobsBaseConfigPods_h */

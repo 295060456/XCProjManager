@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "UIViewModel.h"
+@class UIViewModel;
 
 NS_ASSUME_NONNULL_BEGIN
 /// 所有协议的基类
