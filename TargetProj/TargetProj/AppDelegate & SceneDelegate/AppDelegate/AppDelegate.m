@@ -13,6 +13,13 @@
 #import "NTESVerifyCodeManager.h"
 #endif
 
+//#if __has_include(<ReactiveObjC/ReactiveObjC.h>)
+//#import <ReactiveObjC/ReactiveObjC.h>
+//#else
+//#import "ReactiveObjC.h"
+//#endif
+//#import "ReactiveObjC.h"
+
 #import "BaseModel.h"
 
 @interface AppDelegate ()
